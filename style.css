@@ -76,6 +76,11 @@ body {
     margin-bottom: 20px;
 }
 
+.merch-btn:hover,
+.enter-btn:hover {
+    background-color: black;
+}
+
 @keyframes glowing {
     0% {
         box-shadow: 0 0 5px #800080;
