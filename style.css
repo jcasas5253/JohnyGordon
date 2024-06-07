@@ -66,7 +66,7 @@ body {
     overflow: hidden;
     transition: box-shadow 0.5s;
     border-color: #800080;
-    background-color: rgb(231, 111, 12);
+    background-color: rgb(231, 111, 12, 0.5);
     color: #fff;
     animation: glowing 1.5s infinite;
 }
@@ -78,7 +78,7 @@ body {
 
 .merch-btn:hover,
 .enter-btn:hover {
-    background-color: black;
+    background-color: rgb(231, 111, 12);
 }
 
 @keyframes glowing {
