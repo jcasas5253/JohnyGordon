@@ -1,4 +1,11 @@
 body {
+    background: url("images/background.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.music-body {
     background: url("images/Designer.jpeg");
     position: relative;
     background-repeat: no-repeat;
@@ -24,10 +31,20 @@ body {
     color: white;
 }
 
+.apple {
+    background-color: #fc3c44;
+}
+
+.spotify {
+    background-color: #1DB954;
+}
+
     .instagram:hover,
     .facebook:hover,
     .twitter:hover,
-    .youtube:hover {
+    .youtube:hover,
+    .apple:hover,
+    .spotify:hover {
         background: none;
         background-color: black !important;
     }
@@ -100,7 +117,7 @@ body {
 }
 
 .mb-4 {
-    margin-bottom: 15.5rem !important;
+    margin-bottom: 10.5rem !important;
 }
 
 @media only screen and (max-width: 767px) {
