@@ -131,6 +131,7 @@ body {
     }
     body {
         background-position: center;
+        background-size: 100% 100vh;
     }
     /*.justify-content-center {
         justify-content: space-evenly;
