@@ -126,8 +126,8 @@ body {
     .mb-4 {
         margin-bottom: 8.5rem !important;
     }
-    .text-center {
-        margin-top: 65%;
+    .enter-btn-container {
+        margin-top: 55% !important;
     }
     /*.justify-content-center {
         justify-content: space-evenly;
