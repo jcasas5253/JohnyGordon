@@ -129,6 +129,9 @@ body {
     .enter-btn-container {
         margin-top: 55% !important;
     }
+    body {
+        background-position: center;
+    }
     /*.justify-content-center {
         justify-content: space-evenly;
     }*/
