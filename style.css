@@ -1,8 +1,10 @@
 body {
-    background: url("images/background.jpg");
+    background: url("images/backgroundimg.jpeg");
     position: relative;
     background-repeat: no-repeat;
-    background-size: 100% 100vh;
+    /*background-size: 100% 100vh;*/
+    background-size: cover;
+    background-position: center 40%;
 }
 
 .music-body {
@@ -123,6 +125,9 @@ body {
 @media only screen and (max-width: 767px) {
     .mb-4 {
         margin-bottom: 8.5rem !important;
+    }
+    .text-center {
+        margin-top: 55%;
     }
     /*.justify-content-center {
         justify-content: space-evenly;
